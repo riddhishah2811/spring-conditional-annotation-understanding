@@ -55,6 +55,8 @@ classpath or not. perticluarly the org.h2.web.server.WebServlet.class
   then only as all the above mentioned 4 conditions will satisfy and then only the h2 in memory database will be configured.
 
   Like that there are many autoconfiguration classes like jpaautoconfiguration,..etc which were written for starters inside autoconfiguration dependencies.
+  So we can say that all the autoconfiguration classes are available in the application but they are enabled based on the condition.
+  So this is called Convention Over Configuration(C2C) because convention (Structure of the autoconfiguration classes are already there), we need to do the configuration(Add the    required dependencies and fullfil the condition to enable the configuration which is configuration).
 
 
 
